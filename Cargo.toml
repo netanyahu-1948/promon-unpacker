@@ -1,0 +1,10 @@
+[package]
+name = "promon-unpacker"
+version = "0.1.0"
+edition = "2024"
+description = "A tool for unpacking libraries protected by Promon SHIELD 9.0.2"
+
+[dependencies]
+clap = { version = "4.6.10", features = ["derive"] }
+goblin = "0.10.7"
+hex-literal = "0.4"
